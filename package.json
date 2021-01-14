@@ -1,0 +1,14 @@
+{
+  "name": "readME-generator",
+  "version": "1.0.0",
+  "description": "Readme generator is a node app built to help developers save time in writing readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Desta Mulualem",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  }
+}
