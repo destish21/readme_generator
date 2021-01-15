@@ -29,9 +29,9 @@ var displayLicense = license => {
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  ## Description
+  # Description
   ${data.description}
-  ## Table of Contents
+  # Table of Contents
   * [Installation Instructions](#installation-instructions)
   
   * [Usage Instructions](#usage-instructions)
@@ -39,13 +39,22 @@ function generateMarkdown(data) {
   * [Contribution](#Contribution)
   
   * [Developers Contact Information](#Developers-Contact-Information)
+  * [favfoods](#favfoods)
+  * [your address](#your address)
+  * [PrefferedMethod](#PrefferedMethod of Communication)
     ${licenseLink(data.license)}
-  ## Installation Instructions
+  ##Installation Instructions
   ${data.installation}
   ## Usage Instructions
   ${data.usage}
-  ## Contributiion
+  ##Contributiion
   ${data.contribution}
+  ##favfoods
+  ${data.favfoods}
+  ##your address
+  ${data.address}
+  ##PrefferedMethod of Communications
+  ${data.PrefferedMethos}
   
   ## Developers Contact Information
    * LinkdIn Profile: ${data.linkdin}
