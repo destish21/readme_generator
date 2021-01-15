@@ -1,4 +1,4 @@
-
+// [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 //license badge 
 var licenseBadge = license => {
   if (license !== "None") {
@@ -51,8 +51,7 @@ function generateMarkdown(data) {
    * LinkdIn Profile: ${data.linkdin}
    * URL : ${data.url}
    * Email: ${data.email}
-  ${displayLicens(data.license)}
+  ${displayLicense(data.license)}
 `;
 }
-
 module.exports = generateMarkdown;

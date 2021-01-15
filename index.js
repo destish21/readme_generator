@@ -36,6 +36,7 @@ choices: ['MIT','ISC', 'Zlib', 'None']
 name: 'contribution',
 message: 'Provide guidelines how to contribute to this Project.  (Required)',
 },
+
 //linkden
 {type: 'input',
 name: 'linkdin',
@@ -44,13 +45,28 @@ message: 'What is LinkdIn profile.  (Optional)',
 //GitHub
 {type: 'input',
 name: 'url',
-message: 'What is your deployed URL?',
+message: 'What is your github URL?',
 },
+//address
+{
+type: 'input',
+name: 'addres',
+message: 'Where do you live?',
+},
+//prefferedMethod
+{
+type: 'list',
+name: 'prefferedMethod',
+message: 'What is your preferred method of communication?',
+choices: ['email', 'phone', 'Smoke Singnals', 'Snail Mail'],
+    },
 //Email
-{type: 'input',
-name: 'email',
-message: 'What is your email address?',
-}
+{
+type: 'input',
+name: 'E-mail',
+message: 'What is your E-mail address? (Required)',
+},
+
 ];
 
 // function to write README file
@@ -64,7 +80,9 @@ function init() {
     .prompt(questions)
     .then((answers) => {
         console.log("README.md Successfull Generated!!");
-        writeToFile("README.md", generateMarkdown({...answers}));
+        writeToFile("README.md", generateMarkdown({...answers}), error => {
+            console.log(error) 
+        });
     })
 }
 
