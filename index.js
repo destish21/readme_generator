@@ -29,6 +29,17 @@ const questions = [
         name: 'usage',
         message: 'Provide brief directions for use and include gifs and/or screenshots as needed. (Required)',
     },
+    {
+        type: 'input',
+        name: 'imageName',
+        message: 'Screenshot image name',
+    },
+
+    {
+        type: 'input',
+        name: 'imagePath',
+        message: 'Screenshot image path (eg. images/myImage.png)',
+    },
     //   License and Badge
     {
         type: 'list',
@@ -42,43 +53,30 @@ const questions = [
         name: 'contribution',
         message: 'Provide guidelines how to contribute to this Project.  (Required)',
     },
-    //favFoods
-    {
-        type: 'list',
-        name: 'favFoods',
-        message: 'What are your fav foods?',
-        choices: ['pizza', 'pad Thai', 'Tacos', 'Ethiopian food Enjera'],
-    },
-
+    
     //linkden
     {
         type: 'input',
         name: 'linkdin',
         message: 'What is LinkdIn profile.  (Optional)',
     },
-    //GitHub
+//Deployed
     {
         type: 'input',
         name: 'url',
-        message: 'What is your github URL?',
+        message: 'What is your Deployed url?',
     },
-    //address
+    //GitHub
     {
         type: 'input',
-        name: 'address',
-        message: 'Where do you live?',
+        name: 'gitURL',
+        message: 'What is your github URL?',
     },
-    //prefferedMethod
-    {
-        type: 'list',
-        name: 'prefferedMethod',
-        message: 'What is your preferred method of communication?',
-        choices: ['email', 'phone', 'Smoke Singnals', 'Snail Mail'],
-    },
+   
     //Email
     {
         type: 'input',
-        name: 'E-mail',
+        name: 'email',
         message: 'What is your E-mail address? (Required)',
     },
 
