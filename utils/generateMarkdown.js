@@ -47,6 +47,7 @@ function generateMarkdown(data) {
   ## Usage Instructions
   ${data.usage}
   ![${data.imageName}](${data.imagePath})
+  [![${data.imageName}](${data.imagePath})](${data.video})
   ## Contribution
   ${data.contribution}
   ## Developers Contact Information

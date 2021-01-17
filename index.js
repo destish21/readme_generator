@@ -29,16 +29,23 @@ const questions = [
         name: 'usage',
         message: 'Provide brief directions for use and include gifs and/or screenshots as needed. (Required)',
     },
+    //imagName
     {
         type: 'input',
         name: 'imageName',
         message: 'Screenshot image name',
     },
-
+    //imagePath
     {
         type: 'input',
         name: 'imagePath',
         message: 'Screenshot image path (eg. images/myImage.png)',
+    },
+    //video url
+    {
+        type: 'input',
+        name: 'video',
+        message: 'add your video url',
     },
     //   License and Badge
     {
@@ -53,14 +60,14 @@ const questions = [
         name: 'contribution',
         message: 'Provide guidelines how to contribute to this Project.  (Required)',
     },
-    
+
     //linkden
     {
         type: 'input',
         name: 'linkdin',
         message: 'What is LinkdIn profile.  (Optional)',
     },
-//Deployed
+    //Deployed
     {
         type: 'input',
         name: 'url',
@@ -72,7 +79,7 @@ const questions = [
         name: 'gitURL',
         message: 'What is your github URL?',
     },
-   
+
     //Email
     {
         type: 'input',

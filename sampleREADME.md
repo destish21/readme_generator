@@ -19,7 +19,9 @@
 
   ## Installation Instructions
   Here is where you can add your installation guides.
-  ## Usage Instructions
+  ## Usage Instructions 
+     `node index.js`
+
   Here is where you can add your directions for use or users. You can include giff or screenshots.
   
   ![sample Image](./utils/readme1.png)
