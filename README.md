@@ -1,5 +1,5 @@
 
-  # README-GENERATTOR
+  # Read_generator
  ## License
    [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
 
@@ -18,16 +18,16 @@
 * [License](#license)
 
   ## Installation Instructions
-  Here is where you can add your installation guides.
+   Here is where you can add your a breif description of the project.
   ## Usage Instructions
-   Here is where you can add your directions for use or users. You can include gifS or screenshots.
-  ![sample1](./utils/readme1.png)
-  [![sample1](./utils/readme1.png)]([![Watch the video](./utils/readme1.png)](https://drive.google.com/file/d/1egRzPL_-yFOpIWPq_GqyG78cYpzYN6EQ/view?usp=sharing))
+  Here is where you can add your directions for use.you can include gif or Screenshots.
+  ![Readme2.jpg](./utils/Readme2.jpg)
+  [![Readme2.jpg](./utils/Readme2.jpg)](Here is where you can add your video url)
   ## Contribution
-  Here is where you can add your a clear guide for contibution.
+  Here is where you can add your a clear guide for contribution.
   ## Developers Contact Information
-   * LinkdIn Profile: Here is where you can add your Likedin porfile.
+   * LinkdIn Profile: Here is where you can add your Linkedin profile optional.
    * URL : Here is where you can add your Deployed url.
-   * github URL: Here is where you can add your github URL.
+   * github URL: Here is where you can add your github url.
    * Email: Here is where you can add your E-mail address.
    
