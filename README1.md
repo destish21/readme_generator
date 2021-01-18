@@ -22,7 +22,9 @@
 
   ## Installation Instructions
 
-  The developer is authorizing a free installation by cloning from the code destish21/readme-generator.
+  The developer is authorizing a free installation by cloning from the repo code [
+    destish21/
+   readme_generator](https://github.com/destish21/readme_generator).
   
   ## Usage Instructions
 
@@ -34,10 +36,9 @@
     `node index.js`
    * make sure creat in your repository 
 
-   * Copy the code from the code: 
-   
+   * Copy the code from the code 
    [destish21/
-   readme_generator](https://github.com/destish21/) 
+   readme_generator](https://github.com/destish21/readme_generator) 
    readme_generator and clone it in your comand line.
 
   * Make sure node and npm is installed in your computer.
@@ -47,9 +48,10 @@
 
   * You will be prompted with questions.
 
-  * A "README.md Successfull Generated!!" will be desplayed after answering all the questions.
+  * A "README.md Successfull Generated!!"  will be desplayed after answering all the questions.
 
   * My README.md is in my repo enjoy it !
+  * screenshot image demo
  
   ![name1](./utils/Readme2.jpg)
   
@@ -62,7 +64,7 @@
   
   ## Contribution
   
-  This is Contributed by Desta Mulualem
+  This is Contributed by [destish21/readme_generator](https://github.com/destish21/readme_generator)
   But Contribution, issues and feature requests are welcome.
 
   Feel free to check issues page if you want to contribute.
