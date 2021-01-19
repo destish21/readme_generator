@@ -22,9 +22,9 @@
   ## Usage Instructions 
      `node index.js`
 
-  Here is where you can add your directions for use or users. You can include giff or screenshots.
+  Here is where you can add your directions for use or users. You can include gif or screenshots.
   
-  ![sample Image](./utils/readme1.png)
+  ![sample Image](./utils/Readme2.jpg)
   ## Contribution
   Here is where you can add your aclear  guidelines for Contribution.
   ## Developers Contact Information
